@@ -140,6 +140,53 @@ ul {
   clear: both;
 }
 
+.container{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  text-align: center;
+  justify-items: center;
+  display: inline-grid;
+  border: solid 2px grey;
+  margin: 1rem 2rem;
+  border-radius: 5px;
+}
+
+.card img{
+  justify-self: center;
+  margin: 10px;
+  height: 10rem;
+  width: 12rem;
+  border: grey solid 1px;
+  border-radius: 5px;
+}
+
+.infoList{
+  text-align: left;
+  justify-self: center;
+  margin: 10px;
+  height: 10rem;
+  width: 12rem;
+  border: grey solid 1px;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.pigButton{
+  position: relative;
+  background-color: grey;
+  width: 125px;
+  height: 25px;
+}
+
+.hogForm{
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 2px grey;
+}
 
 @keyframes App-logo-spin {
   from {
